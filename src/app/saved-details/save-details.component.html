@@ -1,0 +1,8 @@
+<h2> Provider Details</h2>
+
+<div *ngIf="unselectedProvider">
+  
+            <h3>{unselectedProvider.name}</h3>
+        
+  <button (click)="addToSave(unselectedProvider.name)">Save Provider</button>
+</div>
